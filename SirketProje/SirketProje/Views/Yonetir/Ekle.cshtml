@@ -1,0 +1,21 @@
+﻿<h1 class="mx-auto">Yönetici Ekleme Paneli</h1>
+<form asp-action="Ekle" method="post">
+
+    <div class="form-group mb-3">
+        <label class="control-label" for="TCNO">Personel T.C No:</label>
+        <input type="text" name="Tcno" class="form-control" id="TCNO" placeholder="###########" minlength="11" maxlength="11" required>
+    </div>
+    <div class="form-group mb-3">
+        <label class="control-label" for="departman">Departman:</label>
+        <input type="number" name="DepartmanNo" class="form-control" id="departman" placeholder="2" required>
+
+    </div>
+
+    <div class="form-group mb-3">
+        <label class="control-label" for="tarih">Başlangıç Tarihi:</label>
+        <input type="date" name="YoneticiBaslangicTarihi" class="form-control" id="tarih" placeholder="" required>
+
+    </div>
+    <button class="btn btn-success" type="submit">Yönetici Ekle</button>
+
+</form>

@@ -1,0 +1,19 @@
+﻿<h1 class="mx-auto">Departman Ekleme Paneli</h1>
+<form asp-action="Ekle" method="post">
+
+    <div class="form-group mb-3">
+        <label class="control-label" for="ID">ID: Otomatik Eklenecek</label>
+    </div>
+    <div class="form-group mb-3">
+        <label class="control-label" for="adi">Departman Adı:</label>
+        <input type="text" name="DepartmanAdi" class="form-control" id="adi" placeholder="Departman Adı" required>
+    </div>
+   
+    <div class="form-group mb-3">
+        <label class="control-label" for="adresi">Departman Adresi:</label>
+        <input type="text" name="DepartmanAdresi" class="form-control" id="adresi" placeholder="Departman Adresi" required>
+
+    </div>
+    <button class="btn btn-success" type="submit">Departman Ekle</button>
+
+</form>

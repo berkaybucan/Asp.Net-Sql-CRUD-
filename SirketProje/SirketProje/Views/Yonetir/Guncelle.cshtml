@@ -1,0 +1,25 @@
+﻿@model SirketProje.Models.Yonetir
+<h1 class="mx-auto">Yönetici Bilgi Güncelleme Paneli</h1>
+<form asp-action="Guncelle" method="post">
+
+    <div class="form-group mb-3">
+        <input type="hidden" class="form-control" asp-for="@Model.PersonelYonetirId">
+    </div>
+
+    <div class="form-group mb-3">
+        <label class="control-label" for="TCNO">T.C No:</label>
+        <input type="text" class="form-control" asp-for="@Model.Tcno" minlength="11" maxlength="11" required>
+    </div>
+    <div class="form-group mb-3">
+        <label class="control-label" for="departman">Departman:</label>
+        <input class="form-control" asp-for="@Model.DepartmanNo" required>
+
+    </div>
+    <div class="form-group mb-3">
+        <label class="control-label" for="tarih">Doğum Tarihi:</label>
+        <input class="form-control" asp-for="@Model.YoneticiBaslangicTarihi" required>
+
+    </div>
+    <button class="btn btn-info" type="submit">Yönetici Güncelle</button>
+
+</form>

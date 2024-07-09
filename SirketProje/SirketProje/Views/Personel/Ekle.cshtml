@@ -1,0 +1,46 @@
+﻿<h1 class="mx-auto">Personel Ekleme Paneli</h1>
+<form asp-action="Ekle" method="post">
+    <div class="row g-3 mb-3">
+        <div class="col">
+            <label class="control-label" for="Ad">Ad:</label>
+            <input type="text" name="PersonelAd" class="form-control" id="Ad" placeholder="Ad" aria-label="Ad" required>
+        </div>
+        <div class="col">
+            <label class="control-label" for="Soyad">Soyad:</label>
+            <input type="text" name="PersonelSoyad" class="form-control" id="Soyad" placeholder="Soyad" aria-label="Soyad" required>
+        </div>
+    </div>
+    <div class="form-group mb-3">
+        <label class="control-label" for="TCNO">T.C No:</label>
+        <input type="text" name="Tcno" class="form-control" id="TCNO" placeholder="###########" minlength="11" maxlength="11" required>
+    </div>
+    <div class="form-group mb-3">
+        <label class="control-label" for="tarih">Doğum Tarihi:</label>
+        <input type="date" name="PersonelDogumTarihi" class="form-control" id="tarih" placeholder="" required>
+
+    </div>
+    <div class="form-group mb-3">
+        <label class="control-label" for="cinsiyet">Cinsiyet:</label>
+        <select name="PersonelCinsiyet">
+            <option value=".">...</option>
+            <option value="Erkek">Erkek</option>
+            <option value="Kadın">Kadın</option>
+        </select>
+    </div>
+    <div class="form-group mb-3">
+        <label class="control-label" for="maas">Maaş:</label>
+        <input type="text" name="PersonelMaas" class="form-control" id="maas" placeholder="15000" required>
+    </div>
+    <div class="form-group mb-3">
+        <label class="control-label" for="adres">Adres:</label>
+        <input type="text" name="PersonelAdres" class="form-control" id="adres" placeholder="Bandırma/Balıkesir" required>
+    </div>
+    <div class="form-group mb-3">
+        <label class="control-label" for="departman">Departman:</label>
+        <input type="number" name="PersonelDepartmanId" class="form-control" id="departman" placeholder="2" required>
+
+    </div>
+   
+    <button class="btn btn-success" type="submit">Personel Ekle</button>
+
+</form>

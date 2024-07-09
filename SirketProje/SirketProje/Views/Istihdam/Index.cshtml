@@ -1,0 +1,29 @@
+﻿@using System.Numerics;
+<div>
+    <a href="/Istihdam/Ekle"><button type="button" class="btn btn-success">Istihdam Ekle</button></a>
+</div>
+
+<table class="table table-striped table-hover">
+    <thead>
+    <th>Istihdam No</th>
+    <th>Personel T.C Numarası</th>
+    <th>Proje</th>
+    <th>Çalışma Saati</th>
+    <th>Düzenle</th>
+    <th>Sil</th>
+    </thead>
+    <tbody>
+        @foreach (var ist in ViewBag.Istihdamlar as List<Istihdam>)
+        {
+            <tr>
+                <td>@(ist.IstihdamNo)</td>
+                <td>@(ist.Tcno)</td>
+                <td>@(ist.ProjeNo)</td>
+                <td>@(ist.CalismaSaati)</td>
+                <td> <a class="btn btn-warning" asp-controller="Istihdam" asp-action="Guncelle" asp-route-id="@ist.IstihdamNo">Güncelle</a></td>
+                <td> <a class="btn btn-danger" asp-controller="Istihdam" asp-action="Sil" asp-route-id="@ist.IstihdamNo">Sil</a></td>
+
+            </tr>
+        }
+    </tbody>
+</table>

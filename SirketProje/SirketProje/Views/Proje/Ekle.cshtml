@@ -1,0 +1,19 @@
+﻿<h1 class="mx-auto">Proje Ekleme Paneli</h1>
+<form asp-action="Ekle" method="post">
+
+    <div class="form-group mb-3">
+        <label class="control-label" for="ID">Proje No: Otomatik Eklenecek</label>
+    </div>
+    <div class="form-group mb-3">
+        <label class="control-label" for="adi">Proje Adı:</label>
+        <input type="text" name="ProjeAdi" class="form-control" id="adi" placeholder="Proje Adı" required>
+    </div>
+
+    <div class="form-group mb-3">
+        <label class="control-label" for="adresi">Proje Adresi:</label>
+        <input type="text" name="ProjeAdresi" class="form-control" id="adresi" placeholder="Proje Adresi" required>
+
+    </div>
+    <button class="btn btn-success" type="submit">Proje Ekle</button>
+
+</form>

@@ -1,0 +1,27 @@
+﻿@using System.Numerics;
+<div>
+    <a href="/Departman/Ekle"><button type="button" class="btn btn-success">Departman Ekle</button></a>
+</div>
+
+<table class="table table-striped table-hover">
+    <thead>
+    <th>Departman No</th>
+    <th>Departman Adı</th>
+    <th>Departman Adresi</th>
+    <th>Düzenle</th>
+    <th>Sil</th>
+    </thead>
+    <tbody>
+        @foreach (var departman in ViewBag.Departmanlar as List<Departman>)
+        {
+            <tr>
+                <td>@(departman.DepartmanNo)</td>
+                <td>@(departman.DepartmanAdi)</td>
+                <td>@(departman.DepartmanAdresi)</td>
+                <td> <a class="btn btn-warning" asp-controller="Departman" asp-action="Guncelle" asp-route-id="@departman.DepartmanNo">Güncelle</a></td>
+                <td> <a class="btn btn-danger" asp-controller="Departman" asp-action="Sil" asp-route-id="@departman.DepartmanNo">Sil</a></td>
+
+            </tr>
+        }
+    </tbody>
+</table>

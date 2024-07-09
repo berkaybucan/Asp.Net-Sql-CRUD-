@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SirketProje
+build_property.RootNamespace = SirketProje
+build_property.ProjectDir = C:\Users\berka\source\repos\2Web\SirketProje\SirketProje\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\berka\source\repos\2Web\SirketProje\SirketProje
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/berka/source/repos/2Web/SirketProje/SirketProje/Views/Departman/Ekle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWFuXEVrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/source/repos/2Web/SirketProje/SirketProje/Views/Departman/Guncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWFuXEd1bmNlbGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/source/repos/2Web/SirketProje/SirketProje/Views/Departman/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWFuXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/source/repos/2Web/SirketProje/SirketProje/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/source/repos/2Web/SirketProje/SirketProje/Views/Istihdam/Ekle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXN0aWhkYW1cRWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/source/repos/2Web/SirketProje/SirketProje/Views/Istihdam/Guncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXN0aWhkYW1cR3VuY2VsbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/source/repos/2Web/SirketProje/SirketProje/Views/Istihdam/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXN0aWhkYW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/source/repos/2Web/SirketProje/SirketProje/Views/Personel/Ekle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uZWxcRWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/source/repos/2Web/SirketProje/SirketProje/Views/Personel/Guncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uZWxcR3VuY2VsbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/source/repos/2Web/SirketProje/SirketProje/Views/Personel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uZWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/source/repos/2Web/SirketProje/SirketProje/Views/Proje/Ekle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVcRWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/source/repos/2Web/SirketProje/SirketProje/Views/Proje/Guncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVcR3VuY2VsbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/source/repos/2Web/SirketProje/SirketProje/Views/Proje/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/source/repos/2Web/SirketProje/SirketProje/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/source/repos/2Web/SirketProje/SirketProje/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/source/repos/2Web/SirketProje/SirketProje/Views/Yonetir/Ekle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpclxFa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/source/repos/2Web/SirketProje/SirketProje/Views/Yonetir/Guncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpclxHdW5jZWxsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/source/repos/2Web/SirketProje/SirketProje/Views/Yonetir/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/source/repos/2Web/SirketProje/SirketProje/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/source/repos/2Web/SirketProje/SirketProje/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berka/source/repos/2Web/SirketProje/SirketProje/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-p2okt7jhpl

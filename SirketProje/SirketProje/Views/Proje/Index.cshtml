@@ -1,0 +1,27 @@
+﻿@using System.Numerics;
+<div>
+    <a href="/Proje/Ekle"><button type="button" class="btn btn-success">Proje Ekle</button></a>
+</div>
+
+<table class="table table-striped table-hover">
+    <thead>
+    <th>Proje No</th>
+    <th>Proje Adı</th>
+    <th>Proje Adresi</th>
+    <th>Düzenle</th>
+    <th>Sil</th>
+    </thead>
+    <tbody>
+        @foreach (var proje in ViewBag.Projeler as List<Proje>)
+        {
+            <tr>
+                <td>@(proje.ProjeNo)</td>
+                <td>@(proje.ProjeAdi)</td>
+                <td>@(proje.ProjeAdresi)</td>
+                <td> <a class="btn btn-warning" asp-controller="Proje" asp-action="Guncelle" asp-route-id="@proje.ProjeNo">Güncelle</a></td>
+                <td> <a class="btn btn-danger" asp-controller="Proje" asp-action="Sil" asp-route-id="@proje.ProjeNo">Sil</a></td>
+
+            </tr>
+        }
+    </tbody>
+</table>

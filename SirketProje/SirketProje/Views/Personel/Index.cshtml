@@ -1,0 +1,41 @@
+﻿@using System.Numerics;
+<div>
+    <a href="/Personel/Ekle"><button type="button" class="btn btn-success">Personel Ekle</button></a>
+</div>
+
+<table class="table table-striped table-hover">
+    <thead>
+    <th>TC No</th>
+    <th>Ad</th>
+    <th>Soyad</th>
+    <th>Doğum Tarihi</th>
+    <th>Cinsiyet</th>
+    <th>Maaş</th>
+    <th>Departman</th>
+    <th>Adres</th>
+    <th>Düzenle</th>
+    <th>Sil</th>
+    </thead>
+    <tbody>
+        @foreach (var personel in ViewBag.Personeller as List<Personel>)
+        {
+            <tr>
+                <td>@(personel.Tcno)</td>
+                <td>@(personel.PersonelAd)</td>
+                <td>@(personel.PersonelSoyad)</td>
+                @{
+                    string dogumtarihi = personel.PersonelDogumTarihi.ToString();
+                    dogumtarihi = dogumtarihi.Substring(0, 10);
+                }
+                <td>@(dogumtarihi)</td>
+                <td>@(personel.PersonelCinsiyet)</td>
+                <td>@(personel.PersonelMaas)</td>
+                <td>@(personel.PersonelDepartmanId)</td>
+                <td>@(personel.PersonelAdres)</td>
+                <td> <a class="btn btn-warning" asp-controller="Personel" asp-action="Guncelle" asp-route-id="@personel.Tcno">Güncelle</a></td>
+                <td> <a class="btn btn-danger" asp-controller="Personel" asp-action="Sil" asp-route-id="@personel.Tcno">Sil</a></td>
+
+            </tr>
+        }
+    </tbody>
+</table>

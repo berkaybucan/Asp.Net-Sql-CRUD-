@@ -1,0 +1,21 @@
+﻿@model SirketProje.Models.Proje
+<h1 class="mx-auto">Proje Bilgi Güncelleme Paneli</h1>
+<form asp-action="Guncelle" method="post">
+
+    <div class="form-group mb-3">
+        <label class="control-label" for="No">Proje No:</label>
+        <input type="hidden" class="form-control" asp-for="@Model.ProjeNo">
+    </div>
+
+    <div class="form-group mb-3">
+        <label class="control-label" for="ad">Proje Ad:</label>
+        <input class="form-control" asp-for="@Model.ProjeAdi" required>
+    </div>
+    <div class="form-group mb-3">
+        <label class="control-label" for="departman">Proje Adresi:</label>
+        <input class="form-control" asp-for="@Model.ProjeAdresi" required>
+
+    </div>
+    <button class="btn btn-info" type="submit">Proje Güncelle</button>
+
+</form>
